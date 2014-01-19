@@ -19,6 +19,7 @@
             android:name="inc.cix.webinapp.WarOfTheWorlds"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/title_activity_wow"
+            android:taskAffinity="in.cix.webinapp.wow"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,6 +32,7 @@
             android:name="inc.cix.webinapp.JabberWocky"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/title_activity_jabber_wocky"
+            android:taskAffinity="in.cix.webinapp.jabberwocky"            
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -43,6 +45,7 @@
             android:name="inc.cix.webinapp.UIAtNasa"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/title_activity_uiat_nasa"
+            android:taskAffinity="in.cix.webinapp.uinasa"            
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -55,6 +58,7 @@
             android:name="inc.cix.webinapp.RoundBall"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/title_activity_round_ball"
+            android:taskAffinity="in.cix.webinapp.roundball"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
