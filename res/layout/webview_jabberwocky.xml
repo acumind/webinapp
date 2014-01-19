@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".JabberWocky" >
+
+    <WebView
+        android:id="@+id/contentWebView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnLayout"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:id="@+id/btnLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" >
+
+        <Button
+            android:id="@+id/btnWiki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jbWikiBtn"
+            android:layout_marginRight="10dp"
+            android:onClick="onBtnClick"
+             />
+
+        <Button
+            android:id="@+id/btnWall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/imgBtn"
+            android:layout_marginLeft="10dp"            
+            android:onClick="onBtnClick"
+             />
+    </LinearLayout>
+
+</RelativeLayout>
