@@ -26,7 +26,7 @@ public class JabberWocky extends Activity {
 		contentWebView.getSettings().setBuiltInZoomControls(true);
 		contentWebView.loadUrl("file:///android_asset/webcontent/jabberwocky.html");
 
-		player = MediaPlayer.create(this,R.raw.audio_clip);		
+		player = MediaPlayer.create(this,R.raw.darktimes_clip);		
 		player.setLooping(true);
 	
 	}
